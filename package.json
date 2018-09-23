@@ -1,0 +1,31 @@
+{
+    "name": "uws-ts",
+    "main": "uws.js",
+    "version": "1.0.0",
+    "description": "node.js typescript bindings for uWebSockets",
+    "author": "Alex Hultman <alexhultman@gmail.com> (https://github.com/alexhultman)",
+    "contributors": [
+        "iCrawl <icrawltogo@gmail.com> (https://github.com/iCrawl)",
+        "InJoins <injoins@qq.com> (https://github.com/injoins)"
+    ],
+    "license": "Zlib",
+    "keywords": [
+        "tiny",
+        "websockets",
+        "uwebsockets",
+        "uws",
+        "node.js",
+        "nodejs",
+        "typescript",
+        "ts"
+    ],
+    "homepage": "https://github.com/InJoins/uws-ts#readme",
+    "engines": {
+        "node": ">=6.0.0"
+    },
+    "dependencies": {},
+    "scripts": {
+        "install": "node-gyp rebuild > build.log 2>&1 || exit 0",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
